@@ -1,0 +1,141 @@
+
+//登录表单
+.dropdown-menu{
+  div.panel{
+    width:400px;
+    color:#000;
+  }
+}
+
+//行之间的间隔
+section>div.container>div.row{
+  margin-bottom:20px;
+}
+
+//大图上的文本
+div.img-title{
+  position: absolute;
+  bottom: 20px;
+  left:20px;
+}
+//右侧上方图片
+.col-md-12.col-sm-6.col-xs-12{
+  overflow: hidden;
+  position: relative;
+  margin-bottom:20px;
+
+  .media{
+    padding: 30px 0px 30px 30px;
+  }
+
+  .half-mask{
+    background-color: rgba(0,0,0,0.7);
+    height: 100%;
+    width: 92.3%;
+    position: absolute;
+    top: 73%;
+    left: 15px;
+    padding: 15px;
+    margin: 0 auto;
+    &:hover{
+      top: 0;
+      transition: top 200ms;
+    }
+  }
+}
+
+//定制部分
+//细节样式
+@imgbase: '../img';
+@baseblue: #0071c5;
+//@blue-lighter:          #00aeef;
+@blue-light:            #0081d6;
+@blue-border:           #005ea4;
+@blue-dark:             #0062a8;
+//@blue-darker:           #015a9e;
+@border-left:           #00AEEF;
+
+body{
+  font-family: "SimHei","SimSun",Arial,sans-serif;
+  color:#fff;
+  padding-top:60px;
+  background-color: @blue-dark;
+}
+
+//导航的样式细节
+.navbar {
+  background-color: @baseblue;
+  border-color: @blue-border;
+  border-bottom: 3px solid rgba(0,80,146,0.75);
+ .navbar-header{
+    span{
+      background-color: #fff;
+    }
+  }
+  .dropdown-menu {
+    background-color: @baseblue;
+  }
+  a.drop_link{
+    background-color: @blue-light !important;
+    padding-left: 15px;
+    padding-right: 65px;
+    font-size: 1.1em;
+  }
+  a{
+    color:#fff;
+  }
+
+  .navbar-brand {
+    width: 64px;
+    height: 42px;
+    padding: 0;
+    margin-top: 10px;
+    margin-right: 10px;
+    background: url('@{imgbase}/hdr-spr.png') no-repeat 0 -512px;
+  }
+
+  li {
+    a {
+      color: #fff !important;
+    }
+    &.active,&:hover{
+      background-color: @blue-light !important;
+    }
+  }
+}
+
+//主体区域
+.main{
+  color: white;
+  min-height: 600px;
+}
+.col-md-12.col-sm-6.col-xs-12{
+  .media{
+    background-color: @baseblue;
+    .media-body{
+      border-left: 1px solid @border-left;
+      ul li{
+        margin:5px 0 5px 10px;
+        a{
+          color:#fff;
+        }
+      }
+    }
+  }
+}
+
+//页脚区域
+footer{
+  padding: 25px 0px;
+  background-color: #f3f3f3;
+  min-height: 300px;
+  color:#000;
+  li{
+    line-height: 2.4em;
+    a {
+      color: #4B85D1;
+    }
+  }
+}
+
+

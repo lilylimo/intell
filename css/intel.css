@@ -1,0 +1,103 @@
+.dropdown-menu div.panel {
+  width: 400px;
+  color: #000;
+}
+section > div.container > div.row {
+  margin-bottom: 20px;
+}
+div.img-title {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+.col-md-12.col-sm-6.col-xs-12 {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 20px;
+}
+.col-md-12.col-sm-6.col-xs-12 .media {
+  padding: 30px 0px 30px 30px;
+}
+.col-md-12.col-sm-6.col-xs-12 .half-mask {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 92.3%;
+  position: absolute;
+  top: 73%;
+  left: 15px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.col-md-12.col-sm-6.col-xs-12 .half-mask:hover {
+  top: 0;
+  transition: top 200ms;
+}
+body {
+  font-family: "SimHei", "SimSun", Arial, sans-serif;
+  color: #fff;
+  padding-top: 60px;
+  background-color: #0062a8;
+}
+.navbar {
+  background-color: #0071c5;
+  border-color: #005ea4;
+  border-bottom: 3px solid rgba(0, 80, 146, 0.75);
+}
+.navbar .navbar-header span {
+  background-color: #fff;
+}
+.navbar .dropdown-menu {
+  background-color: #0071c5;
+}
+.navbar a.drop_link {
+  background-color: #0081d6 !important;
+  padding-left: 15px;
+  padding-right: 65px;
+  font-size: 1.1em;
+}
+.navbar a {
+  color: #fff;
+}
+.navbar .navbar-brand {
+  width: 64px;
+  height: 42px;
+  padding: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+  background: url('../img/hdr-spr.png') no-repeat 0 -512px;
+}
+.navbar li a {
+  color: #fff !important;
+}
+.navbar li.active,
+.navbar li:hover {
+  background-color: #0081d6 !important;
+}
+.main {
+  color: white;
+  min-height: 600px;
+}
+.col-md-12.col-sm-6.col-xs-12 .media {
+  background-color: #0071c5;
+}
+.col-md-12.col-sm-6.col-xs-12 .media .media-body {
+  border-left: 1px solid #00aeef;
+}
+.col-md-12.col-sm-6.col-xs-12 .media .media-body ul li {
+  margin: 5px 0 5px 10px;
+}
+.col-md-12.col-sm-6.col-xs-12 .media .media-body ul li a {
+  color: #fff;
+}
+footer {
+  padding: 25px 0px;
+  background-color: #f3f3f3;
+  min-height: 300px;
+  color: #000;
+}
+footer li {
+  line-height: 2.4em;
+}
+footer li a {
+  color: #4B85D1;
+}
