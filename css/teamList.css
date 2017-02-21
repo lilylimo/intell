@@ -1,0 +1,48 @@
+/*团队列表 样式*/
+/*********  团队列表    团长名称   *********/
+.teamBox{margin-bottom: 10px;background: #fff;}
+.teamBox h3{color: #bec3c2;height: 50px;overflow: hidden;line-height: 50px;padding: 0 15px;font-size: 16px;}
+.teamBox h3 b{color: #49c29d;margin-right: 5px;}
+.teamBox h3 span{width: 80%;height: 50px;}
+.teamBox h3 label{float: right;}
+
+/*********  团队列表    团队滑动   *********/
+.teamSlide{height: 110px;padding:6px 15px 15px 15px;position: relative;}
+.teamSlide:after{content: "";width: 30px;height: 90px;background:#fff url(../img/slideright.png) no-repeat center;background-size:70% auto;position: absolute;right: 4px;top:0;z-index: 2;}
+.teamSlideBox:first-of-type{border:2px solid #49c29d;}
+.teamSlideBox{text-align: center;margin-right:15px;width: 80px;height:80px;border-radius: 50%;overflow: hidden;background: url(../img/waitU.png) no-repeat center;background-size: 60%;position: relative;}
+.teamSlideBox:before{content: "虚位以待";color: #49c29d;position: absolute;top: 0;left: 0;z-index: -1;line-height:80px;width: 100%;}
+.teamSlideBox:after{content: "";border:1px solid #e3f6f0;width: 98%;height: 98%;border-radius: 50%;position: absolute;top: 0;left: 0;z-index: -1;}
+.paying:before{content: "支付中";color: #f14b4f;z-index: 1;font-size: 16px;}
+.paying:after{content: "";border:none;width: 100%;height: 100%;z-index: 0;background: rgba(73,194,157,.3);}
+.teamSlideBox img{width: 100%;height: 100%;}
+
+.teamBar{height:50px;line-height: 40px;border-top: 1px solid #eee;border-bottom: 1px solid #eee;padding: 5px 0;}
+.teamBar a{display: inline-block;width: 50%;text-align: center;float: left;font-size: 16px;}
+.teamBar a:nth-of-type(1){color: #bec3c2;border-right: 1px solid #eee;}
+.teamBar a:nth-of-type(2){color: #f14b4f;}
+
+
+/*三星galaxy*/
+@media screen and (min-width:360px){
+	
+}
+/*iPhone 6等*/
+@media screen and (min-width:400px){
+		
+}
+/*安卓*/
+@media screen and (min-width:600px){
+	
+}
+/*iPad*/
+@media screen and (min-width:768px){
+	
+}
+
+
+
+
+
+
+

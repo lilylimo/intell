@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>团购活动</title>
+    <link rel="stylesheet" href="css/swiper-3.4.0.min.css">
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/teamList.css" />
+    <link rel="stylesheet" href="css/grouponDetail.css" />
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js" ></script>
+	<script type="text/javascript" src="js/mui.min.js" ></script>
+	<script type="text/javascript" src="js/swiper-3.4.0.min.js" ></script>
+</head>
+<body>
+<!--  团购活动      头部    -->
+<header class="displayBox gplNav">
+	<span class="backIcon"></span>
+	<h2 class="boxflex">团购详情</h2>
+	<span class="navIcon"></span>
+</header>
+<!--  团购活动     隐藏头部导航    -->
+<div class="gplTopBar hide">
+	<h3>
+    	<img src="img/user2.jpg" />
+        <label>15974443210</label>
+    </h3>
+    <a href="orderList.html" class="myordIcon" >我的订单</a>
+    <a href="grouponList.html" class="tghdIcon" >团购活动</a>
+</div>
+<!--  团购详情  主体页面    -->
+<section class="mui-content mui-scroll-wrapper scrollY scrollBt50 scrollTp60">
+	<div class="mui-scroll" >
+		<!--  团购详情  头部轮播    -->
+		<div class="swiper-container gdTop">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide">
+		        	<img src="img/mall1.jpg" />
+		        </div>
+		        <div class="swiper-slide">
+		        	<img src="img/mall1.jpg" />
+		        </div>
+		        <div class="swiper-slide">
+		        	<img src="img/mall1.jpg" />
+		        </div>
+		    </div>
+		    <!-- 分页器 -->
+		    <div class="swiper-pagination"></div>
+		</div>
+		<!--  团购详情  头部信息    -->
+		<div class="gdInfo">
+			<h3>【华窈医美】2017团购整形团购名称团购名称整形 购整形团购名称团购名称整形</h3>
+			<h4>
+				<span>￥<i>1999</i>.00</span>
+				<label>￥3999.99</label>
+				<cite><b>0</b>个已成团</cite>
+			</h4>
+		</div>
+		<!--  团购详情    倒计时    -->
+		<div class="deadline">
+			<cite class="gplTimeing"><label>还剩:</label><span class="settime" data-time="2017-02-12 10:20:30"></span></cite>
+			<span><b>10</b>个成团中</span>
+		</div>
+		<!--  团购详情    适用门店    -->
+		<div class="openStore">适用门店</div>
+		<!--  团购详情    开团中    -->
+		<div class="starting">
+			<h4>开团中<i>(30人)</i></h4>
+			<!--  团购详情    开团中轮播    -->
+			<div class="teamSlide">
+				<div class="mui-scroll-wrapper mui-slider-indicator scrollX">
+					<div class="mui-scroll displayBox">
+				    	<div class="boxflex teamSlideBox">
+				    		<img src="img/user2.jpg"/>
+				    	</div>
+				    	<div class="boxflex teamSlideBox paying">
+				    		<img src="img/user2.jpg"/>
+				    	</div>
+				    	<div class="boxflex teamSlideBox">
+				    		<img src="img/user2.jpg"/>
+				    	</div>
+				    	<div class="boxflex teamSlideBox">
+				    		
+				    	</div>
+		    		</div>
+				</div>
+			</div>
+			
+		</div>
+		<!--  团购详情    服务特点    -->
+		<div class="serviceInfo">
+			<h4>服务特点</h4>
+			<p>·【华窈医美】2017团购整形团购名称团购</p>
+			<p>·【华窈医美】2017团购整形团购名称团购</p>
+			<p>·【华窈医美】2017团购整形团购名称团购</p>
+			<a href="detailMore.html">了解更多</a>
+		</div>
+		<!--  团购详情    特别提醒    -->
+		<div class="serviceInfo gdtip">
+			<h4>特别提醒</h4>
+			<p>·【华窈医美】2017团购整形团购名称团购</p>
+			<p>·【华窈医美】2017团购整形团购名称团购</p>
+		</div>
+		
+	</div>		
+</section>	
+
+<!--  开参团    底部按钮    -->
+<footer class="kctBar">
+	<a href="">我要开团</a>
+	<a href="">我要参团</a>
+</footer>
+
+<!--  弹层   可选门店列表    -->
+<div id="storePop" class="rightPop">
+	<div class="storeBox">
+		<h3>服务适用门店</h3>
+		<div class="mui-content mui-scroll-wrapper scrollY scrollTp66">
+			<div class="mui-scroll" id="dataScroll">
+				<div class="storeList">
+					<dl class="displayBox">
+						<dt>
+							<img src="img/mall1.jpg" />
+						</dt>
+						<dd class="boxflex">
+							<h4>上海华窈整形福州路上海华窈整形福州路上海华窈整形福州路</h4>
+							<h5 class="address">上海市长宁区金钟路199号长宁一号楼303号</h5>
+							<h5 class="clock">8:00-22:00</h5>
+						</dd>
+					</dl>
+					<label class="callTel" data-tel="tel:18818888888">电话咨询</label>
+					<span class="gothere">去这里</span>
+				</div>
+				<div class="storeList">
+					<dl class="displayBox">
+						<dt>
+							<img src="img/mall1.jpg" />
+						</dt>
+						<dd class="boxflex">
+							<h4>上海华窈整形福州路上海华窈整形福州路上海华窈整形福州路</h4>
+							<h5 class="address">上海市长宁区金钟路199号长宁一号楼303号</h5>
+							<h5 class="clock">8:00-22:00</h5>
+						</dd>
+					</dl>
+					<label class="callTel" data-tel="tel:18818888888">电话咨询</label>
+					<span class="gothere">去这里</span>
+				</div>
+				<div class="storeList">
+					<dl class="displayBox">
+						<dt>
+							<img src="img/mall1.jpg" />
+						</dt>
+						<dd class="boxflex">
+							<h4>上海华窈整形福州路上海华窈整形福州路上海华窈整形福州路</h4>
+							<h5 class="address">上海市长宁区金钟路199号长宁一号楼303号</h5>
+							<h5 class="clock">8:00-22:00</h5>
+						</dd>
+					</dl>
+					<label class="callTel" data-tel="tel:18818888888">电话咨询</label>
+					<span class="gothere">去这里</span>
+				</div>
+				<div class="storeList">
+					<dl class="displayBox">
+						<dt>
+							<img src="img/mall1.jpg" />
+						</dt>
+						<dd class="boxflex">
+							<h4>上海华窈整形福州路上海华窈整形福州路上海华窈整形福州路</h4>
+							<h5 class="address">上海市长宁区金钟路199号长宁一号楼303号</h5>
+							<h5 class="clock">8:00-22:00</h5>
+						</dd>
+					</dl>
+					<label class="callTel" data-tel="tel:18818888888">电话咨询</label>
+					<span class="gothere">去这里</span>
+				</div>
+				<div class="storeList">
+					<dl class="displayBox">
+						<dt>
+							<img src="img/mall1.jpg" />
+						</dt>
+						<dd class="boxflex">
+							<h4>上海华窈整形福州路上海华窈整形福州路上海华窈整形福州路</h4>
+							<h5 class="address">上海市长宁区金钟路199号长宁一号楼303号</h5>
+							<h5 class="clock">8:00-22:00</h5>
+						</dd>
+					</dl>
+					<label class="callTel" data-tel="tel:18818888888">电话咨询</label>
+					<span class="gothere">去这里</span>
+				</div>
+				
+				<!-- 上拉加载提示    开始-->
+				<div class="loadmore"><span class="loading"></span><span class="loadTip">上拉显示更多</span></div>
+				 <!-- 上拉加载提示     结束-->
+				
+				
+				
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+<!--  公共弹层背景    -->
+<div class="rightpopBg hide"></div>
+
+<script type="text/javascript" src="js/public.js" ></script>
+<script type="text/javascript" src="js/grouponDetail.js" ></script>
+	
+</body>
+</html>

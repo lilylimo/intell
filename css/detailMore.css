@@ -1,0 +1,37 @@
+/*图文详情 样式*/
+/*********  图文详情    头部倒计时   *********/
+.deadline{background: #fff;padding: 15px 10px;}
+.deadline>span{color: #f1494d;}
+
+.gplTimeing{float: right;color: #bec3c2;}
+.gplTimeing label{margin-right: 5px;}
+.gplTimeing label:before{content: "";width: 20px;height: 20px;background: url(../img/clock.svg) no-repeat center;background-size:auto 100%;margin-top: -5px;margin-right: 5px;}
+.gplTimeing span i{color:#f1494d;}
+
+/*********  图文详情    图文   *********/
+.dmMain img{width: 100%;display: block;}
+
+
+/*三星galaxy*/
+@media screen and (min-width:360px){
+	
+}
+/*iPhone 6等*/
+@media screen and (min-width:400px){
+		
+}
+/*安卓*/
+@media screen and (min-width:600px){
+	
+}
+/*iPad*/
+@media screen and (min-width:768px){
+	
+}
+
+
+
+
+
+
+

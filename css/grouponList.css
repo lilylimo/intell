@@ -1,0 +1,48 @@
+/*团购活动 样式*/
+
+/*********  团购活动    活动列表   *********/
+.gplBox{padding: 10px;background: #fff;margin-bottom: 10px;border-bottom: 1px solid #eee;overflow: hidden;}
+.gplBox dl{width: 100%;}
+.gplBox dl dt{position: relative;}
+.gplBox dl dt img{width: 100%;border-radius: 5px;}
+
+.gplTimeing{width: 100%;height: 40px;line-height: 40px;position: absolute;bottom: 0;left: 0;z-index: 1;background: rgba(255,255,255,.9);padding: 0 10px;text-align: right;}
+.gplTimeing label{margin-right: 5px;}
+.gplTimeing label:before{content: "";width: 20px;height: 20px;background: url(../img/clock.svg) no-repeat center;background-size:auto 100%;margin-top: -3px;margin-right: 5px;}
+.gplTimeing span i{color:#f1494d;}
+
+.gplBox dl dd{padding: 10px 0;border-bottom: 1px solid #eee;}
+.gplBox dl dd h3{color: #5e6160;font-size: 16px;height: 20px;overflow: hidden;font-weight: bold;margin-bottom: 6px;}
+.gplBox dl dd h4{color: #bec3c2;height: 20px;overflow: hidden;margin-bottom: 10px;}
+.gplBox dl dd h5 cite span{color: #f1494d;}
+.gplBox dl dd h5 cite span i{font-size: 24px;font-weight: bold;}
+.gplBox dl dd h5 cite b{color: #bec3c2;text-decoration: line-through;margin-left: 5px;}
+.gplBox dl dd h5 label{text-align: right;line-height: 36px;color: #49c29d;}
+.gplBox dl dd h5 label i{color: #f1494d;}
+
+.gplBox>a{float: right;color: #fff;padding: 10px 24px;border-radius: 4px;margin: 15px 0 5px 0;}
+.gplBox .kaiIcon{background: #f14b4d;margin-left: 15px;}
+.gplBox .canIcon{background: #49c29d;}
+
+
+/*三星galaxy*/
+@media screen and (min-width:360px){
+	.gplBox>a{font-size: 16px;}
+}
+/*iPhone 6等*/
+@media screen and (min-width:400px){
+		
+}
+/*安卓*/
+@media screen and (min-width:600px){
+	
+}
+/*iPad*/
+@media screen and (min-width:768px){
+	
+}
+
+
+
+
+

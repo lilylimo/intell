@@ -1,0 +1,101 @@
+/*团购详情 样式*/
+/*********  团购详情    头部轮播   *********/
+.gdTop{height: 200px;}
+.gdTop img{width: 100%;}
+.gdTop .swiper-pagination-bullet-active{background:#49c29d ;}
+
+/*********  团购详情    头部信息   *********/
+.gdInfo{background: #fff;padding: 10px;border-bottom: 1px solid #eee;}
+.gdInfo h3{font-size: 15px;width: 80%;margin-bottom: 10px;}
+.gdInfo h4 span{color: #f1494d;font-weight: bold;}
+.gdInfo h4 span i{font-size: 24px;}
+.gdInfo h4 label{color: #bec3c2;text-decoration: line-through;margin-left: 5px;}
+.gdInfo h4 cite{float: right;color: #bec3c2;line-height: 40px;}
+.gdInfo h4 cite b{color: #f1494d;}
+
+.deadline{background: #fff;padding: 15px 10px;border-bottom: 1px solid #eee;}
+.deadline>span{color: #bec3c2;float: right;}
+.deadline>span b{color: #f1494d;}
+.gplTimeing{color: #bec3c2;}
+.gplTimeing label{margin-right: 5px;}
+.gplTimeing label:before{content: "";width: 20px;height: 20px;background: url(../img/clock.svg) no-repeat center;background-size:auto 100%;margin-top: -5px;margin-right: 5px;}
+.gplTimeing span i{color:#f1494d;}
+
+.openStore{background: #fff;margin: 10px 0;padding: 10px;font-size: 15px;}
+.openStore:after{content: "";width: 20px;height: 20px;background: url(../img/rightarrow.png) no-repeat center;background-size: auto 90%;float: right;}
+
+/*********  团购详情    开团中   *********/
+.starting{background: #fff;padding: 20px 0;}
+.starting h4{color: #4cc39e;text-align: center;font-size: 16px;margin-bottom: 15px;}
+.starting h4 i{color:#bec3c2;font-size: 12px;margin-left: 5px;}
+
+/*********  团购详情    服务特点   *********/
+.serviceInfo{background: #fff;margin-top: 10px;margin-bottom: 10px;overflow: hidden;}
+.serviceInfo h4{font-size: 15px;padding: 10px;border-bottom: 1px solid #eee;}
+.serviceInfo p:first-of-type{margin-top: 10px;}
+.serviceInfo p{padding: 0 10px;color: #bec3c2;line-height: 22px;}
+.serviceInfo a{float: right;color: #bec3c2;border: 1px solid #bec3c2;border-radius: 4px;padding: 5px 20px;margin: 20px 15px 15px 0;}
+
+.gdtip h4{color: #f1494d;}
+.gdtip p:last-of-type{margin-bottom: 10px;}
+
+/*********  服务详情      公共右弹层   *********/
+.rightpopBg{width: 100%;height: 100%;position:fixed;z-index: 5;background: rgba(0,0,0,.6); top: 0px;left: 0px;}
+.rightPop{width: 85%;height: 100%;position: fixed;z-index: 6;top: 0;right:-100%;background: #fff;}
+
+.rightPop .storeBox h3{text-align: center;}
+.rightPop .storeList dl dt{margin-top: 10px;}
+.rightPop .storeList h5{margin-top: 10px;}
+
+.rightPop .mui-content{width: 90%;margin: 0 5%;}
+
+/*********  服务详情      可选服务门店   *********/
+.storeBox{padding: 10px;background: #fff;}
+.storeBox h3{color: #5b4d52;font-size: 16px;border-bottom: 1px solid #eee;padding: 5px 5px 8px 5px;margin-bottom: 20px;}
+
+.storeList{overflow: hidden;margin-bottom: 20px;}
+.storeList dl{border-bottom: 1px solid #eee;padding-bottom: 10px;margin-bottom: 10px;}
+.storeList dl dt{width: 60px;height: 60px;border-radius: 50%;overflow: hidden;border:2px solid #efefef;margin-right: 10px;margin-top: 10px;}
+.storeList dl dt img{width: 100%;height: 100%;}
+.storeList dl dd h4{color: #5b4d52;font-size: 16px;height: 20px;overflow: hidden;margin-bottom: 5px;}
+.storeList dl dd h5{color: #bec3c2;height: 20px;overflow: hidden;}
+
+.address:before{content: "";margin-right: 5px;margin-top: -2px;width: 18px;height: 18px;background: url(../img/location.png) no-repeat center;background-size: auto 100%;}
+.clock:before{content: "";margin-right: 5px;margin-top: -2px;width: 18px;height: 18px;background: url(../img/clockpop.png) no-repeat center;background-size: auto 90%;}
+.mobile:before{content: "";margin-right: 5px;margin-top: -2px;width: 18px;height: 18px;background: url(../img/graymobile.png) no-repeat center;background-size: auto 90%;}
+
+.gothere{width: 90px;height: 30px;line-height: 30px;color: #49c29d;border: 1px solid #49c29d;border-radius: 5px;text-align: right;padding: 0 10px;float: right;}
+.gothere:before{content: "";margin-right: 5px;margin-top: -2px;width: 18px;height: 18px;background: url(../img/gothere.png) no-repeat center;background-size: 100%;}
+
+.callTel{width: 100px;height: 30px;line-height: 30px;color: #fff;background: #49c29d;border-radius: 5px;text-align: right;padding: 0 10px;display: inline-block;float: right;margin-left: 20px;}
+.callTel:before{content: "";margin-right: 5px;margin-top: -2px;width: 18px;height: 18px;background: url(../img/mobile.png) no-repeat center;background-size: auto 100%;}
+
+
+/*三星galaxy*/
+@media screen and (min-width:360px){
+	.startSlide .teamSlideBox:before{line-height: 72px;}
+	.serviceInfo p{margin-top: 10px;}
+	.serviceInfo p:first-of-type{margin-top: 15px;}
+	.storeList dl dt{width: 80px;height: 80px;margin-top: 10px;}
+	.rightPop .storeList dl dt{margin-top: 0;}
+	.storeList dl dd h5{margin-top: 5px;}
+}
+/*iPhone 6等*/
+@media screen and (min-width:400px){
+	.startSlide .teamSlideBox:before{line-height: 83px;}	
+	.gdTop{height: 260px;}
+}
+/*安卓*/
+@media screen and (min-width:600px){
+	.gdTop{height: 320px;}
+}
+/*iPad*/
+@media screen and (min-width:768px){
+	.gdTop{height: 400px;}
+}
+
+
+
+
+
+

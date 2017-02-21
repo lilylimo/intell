@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>订单详情</title>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/teamList.css" />
+    <link rel="stylesheet" href="css/grouponDetail.css" />
+    <link rel="stylesheet" href="css/orderDetail.css" />
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js" ></script>
+	<script type="text/javascript" src="js/mui.min.js" ></script>
+</head>
+<body>
+<!--  团购活动      头部    -->
+<header class="displayBox gplNav">
+	<span class="backIcon"></span>
+	<h2 class="boxflex">订单详情</h2>
+	<span class="navIcon"></span>
+</header>
+<!--  团购活动     隐藏头部导航    -->
+<div class="gplTopBar hide">
+	<h3>
+    	<img src="img/user2.jpg" />
+        <label>15974443210</label>
+    </h3>
+    <a href="orderList.html" class="myordIcon" >我的订单</a>
+    <a href="grouponList.html" class="tghdIcon" >团购活动</a>
+</div>
+<!--  订单详情  主体页面    -->
+<section class="mui-content mui-scroll-wrapper scrollY scrollBt50 scrollTp60">
+	<div class="mui-scroll" >
+		<!--  订单详情  开团状态   开团中    -->
+		<div class="odTop">
+			<ul class="displayBox">
+				<li class="active">
+					<b></b>
+					<i>参团</i>
+				</li>
+				<li class="boxflex gou">
+					<b></b>
+					<i>开团中</i>
+				</li>
+				<li>
+					<b></b>
+					<i>开团成功</i>
+				</li>
+			</ul>
+		</div>
+		<!--  订单详情  开团状态    开团失败    -->
+		<div class="odTop">
+			<ul class="displayBox">
+				<li class="active">
+					<b></b>
+					<i>参团</i>
+				</li>
+				<li class="boxflex active">
+					<b></b>
+					<i>开团中</i>
+				</li>
+				<li class="fail">
+					<b></b>
+					<i>开团失败</i>
+				</li>
+			</ul>
+		</div>
+		<!--  订单详情  开团状态    开团成功    -->
+		<div class="odTop">
+			<ul class="displayBox">
+				<li class="active">
+					<b></b>
+					<i>参团</i>
+				</li>
+				<li class="boxflex active">
+					<b></b>
+					<i>开团中</i>
+				</li>
+				<li class="gou">
+					<b></b>
+					<i>开团成功</i>
+				</li>
+			</ul>
+		</div>
+		<!--  订单详情  开团状态    已服务    -->
+		<div class="odTop">
+			<ul class="displayBox">
+				<li class="active">
+					<b></b>
+					<i>参团</i>
+				</li>
+				<li class="boxflex active">
+					<b></b>
+					<i>已成团</i>
+				</li>
+				<li class="gou">
+					<b></b>
+					<i>已服务</i>
+				</li>
+			</ul>
+		</div>
+		<!--  订单详情  订单信息    -->
+		<div class="odInfo">
+			<h3>·【华窈医美】2017团购整形团购名称团购名称2017团购整形团购名称团购名称</h3>
+			<dl class="displayBox">
+				<dt>
+					<img src="img/mall1.jpg" />
+				</dt>
+				<dd class="boxflex">
+					<span>未使用</span>
+					<h4>订单号：4782564600696366</h4>
+					<h5>支付时间：2016-10-30</h5>
+					<h6>团购：￥1999.00</h6>
+				</dd>
+			</dl>
+		</div>
+		<!--  订单详情  订单信息    已使用    -->
+		<div class="odInfo ysy">
+			<h3>·【华窈医美】2017团购整形团购名称团购名称2017团购整形团购名称团购名称</h3>
+			<dl class="displayBox">
+				<dt>
+					<img src="img/mall1.jpg" />
+				</dt>
+				<dd class="boxflex">
+					<span>已使用</span>
+					<h4>订单号：4782564600696366</h4>
+					<h5>支付时间：2016-10-30</h5>
+					<h6>团购：￥1999.00</h6>
+				</dd>
+			</dl>
+		</div>
+		<!--  订单详情  团队成员    -->
+		<div class="odTeam">
+			<h3>
+				<span>团队成员：</span>
+				<label>未成团<i>(17人)</i></label>
+			</h3>
+			<div class="teamSlide">
+				<div class="mui-scroll-wrapper mui-slider-indicator scrollX">
+					<div class="mui-scroll displayBox">
+				    	<div class="boxflex teamSlideBox">
+				    		<img src="img/user2.jpg"/>
+				    	</div>
+				    	<div class="boxflex teamSlideBox paying">
+				    		<img src="img/user2.jpg"/>
+				    	</div>
+				    	<div class="boxflex teamSlideBox">
+				    		<img src="img/user2.jpg"/>
+				    	</div>
+				    	<div class="boxflex teamSlideBox">
+				    		
+				    	</div>
+		    		</div>
+				</div>
+			</div>
+			
+		</div>
+		<!--  订单详情  团队成员   开团失败（未支付）    -->
+		<div class="odTeam">
+			<h3>
+				<span>团队成员：</span>
+				<label>未成团<i>(17人)</i></label>
+			</h3>
+			<div class="teamSlide wzf">
+				<div class="mui-scroll-wrapper mui-slider-indicator scrollX">
+					<div class="mui-scroll displayBox">
+				    	<div class="boxflex teamSlideBox">
+				    		<img src="img/user2.jpg"/>
+				    	</div>
+				    	<div class="boxflex teamSlideBox paying">
+				    		<img src="img/user2.jpg"/>
+				    	</div>
+				    	<div class="boxflex teamSlideBox">
+				    		<img src="img/user2.jpg"/>
+				    	</div>
+				    	<div class="boxflex teamSlideBox">
+				    		
+				    	</div>
+		    		</div>
+				</div>
+			</div>
+			
+		</div>
+		<!--  订单详情  团队成员   开团成功（已成团）    -->
+		<div class="odTeam yct">
+			<h3>
+				<span>团队成员：</span>
+				<label>已成团<i>(17人)</i></label>
+			</h3>
+			<div class="teamSlide">
+				<div class="mui-scroll-wrapper mui-slider-indicator scrollX">
+					<div class="mui-scroll displayBox">
+				    	<div class="boxflex teamSlideBox">
+				    		<img src="img/user2.jpg"/>
+				    	</div>
+				    	<div class="boxflex teamSlideBox">
+				    		<img src="img/user2.jpg"/>
+				    	</div>
+				    	<div class="boxflex teamSlideBox">
+				    		<img src="img/user2.jpg"/>
+				    	</div>
+				    	<div class="boxflex teamSlideBox">
+				    		<img src="img/user2.jpg"/>
+				    	</div>
+				    	<div class="boxflex teamSlideBox">
+				    		<img src="img/user2.jpg"/>
+				    	</div>
+		    		</div>
+				</div>
+			</div>
+			
+		</div>
+		<!--  订单详情  服务项目    -->
+		<div class="serviceInfo">
+			<h4>服务项目：</h4>
+			<p><span>·【华窈医美】2017团购整形团购名称团购</span><i>x2</i></p>
+			<p><span>·【华窈医美】2017团购整形团购名称团购</span><i>x2</i></p>
+			<p><span>·【华窈医美】2017团购整形团购名称团购</span><i>x2</i></p>
+		</div>
+		<!--  订单详情  金额    -->
+		<div class="odNum">
+			<h3>订单总额：<i>￥29999</i></h3>
+			<h4>团购优惠：-￥1000.00</h4>
+			<h5>实付金额：<i>￥1999.00（来自微信支付）</i></h5>
+		</div>
+		<!--  订单详情    适用门店    -->
+		<div class="openStore">适用门店：</div>
+		<!--  订单详情   服务门店(已使用)    -->
+		<div class="storeBox">
+			<h3>服务门店：</h3>
+			<div class="storeList fwmd">
+				<dl class="displayBox">
+					<dt>
+						<img src="img/mall1.jpg" />
+					</dt>
+					<dd class="boxflex">
+						<h4>288元优惠代金券288元优惠代优惠代金券金券..</h4>
+						<h5 class="address">上海市长宁区金钟路199号长宁一号楼303号</h5>
+						<h5 class="mobile">15974447214</h5>
+						<h5 class="clock">8:00-22:00</h5>
+					</dd>
+				</dl>
+			</div>
+			
+		</div>
+		<!--  订单详情    服务时间（已使用）    -->
+		<div class="serviceTime">
+			服务时间：2016-10-26   08：90
+		</div>
+		<!--  订单详情    特别提醒    -->
+		<div class="serviceInfo gdtip">
+			<h4>特别提醒</h4>
+			<p>请在2016年10月23日期间完成服务</p>
+		</div>
+		
+		
+		
+	</div>		
+</section>	
+
+<!--  订单详情   底部按钮    邀请朋友    -->
+<footer class="yqfriend">
+	<span>实付：<i>￥1999.00</i></span>
+	<span><a href="" >邀请朋友</a></span>
+</footer>
+
+<!--  订单详情   底部按钮    立即使用(开团成功)    -->
+<!--<footer class="yqfriend">
+	<span>实付：<i>￥1999.00</i></span>
+	<span id="useNow">立即使用</span>
+</footer>-->
+
+<!--  订单详情   底部按钮    查看更多团购(已使用)    -->
+<!--<footer class="yqfriend">
+	<span>实付：<i>￥1999.00</i></span>
+	<span><a href="grouponList.html" >查看更多团购</a></span>
+</footer>-->
+
+<!--  订单详情   底部按钮    退款金额（开团失败）    -->
+<!--<footer class="yqfriend tkje">
+	<h3>退款金额：<i>￥1999.00</i></h3>
+</footer>-->
+
+<!--  弹层   待支付    -->
+<div id="codePop" class="codePop">
+	<h3>华窈医美】2017团购整形团购名称团购名称整形团整.2017团购整</h3>
+	<img src="img/code1.jpg" />
+	<h5>到店扫描二维码确认</h5>
+</div>
+<!--  公共弹层背景    -->
+<div class="centerBg hide"></div>
+
+
+<!--  弹层   可选门店列表    -->
+<div id="storePop" class="rightPop">
+	<div class="storeBox">
+		<h3>服务适用门店</h3>
+		<div class="mui-content mui-scroll-wrapper scrollY scrollTp66">
+			<div class="mui-scroll" id="dataScroll">
+				<div class="storeList">
+					<dl class="displayBox">
+						<dt>
+							<img src="img/mall1.jpg" />
+						</dt>
+						<dd class="boxflex">
+							<h4>上海华窈整形福州路上海华窈整形福州路上海华窈整形福州路</h4>
+							<h5 class="address">上海市长宁区金钟路199号长宁一号楼303号</h5>
+							<h5 class="clock">8:00-22:00</h5>
+						</dd>
+					</dl>
+					<label class="callTel" data-tel="tel:18818888888">电话咨询</label>
+					<span class="gothere">去这里</span>
+				</div>
+				<div class="storeList">
+					<dl class="displayBox">
+						<dt>
+							<img src="img/mall1.jpg" />
+						</dt>
+						<dd class="boxflex">
+							<h4>上海华窈整形福州路上海华窈整形福州路上海华窈整形福州路</h4>
+							<h5 class="address">上海市长宁区金钟路199号长宁一号楼303号</h5>
+							<h5 class="clock">8:00-22:00</h5>
+						</dd>
+					</dl>
+					<label class="callTel" data-tel="tel:18818888888">电话咨询</label>
+					<span class="gothere">去这里</span>
+				</div>
+				<div class="storeList">
+					<dl class="displayBox">
+						<dt>
+							<img src="img/mall1.jpg" />
+						</dt>
+						<dd class="boxflex">
+							<h4>上海华窈整形福州路上海华窈整形福州路上海华窈整形福州路</h4>
+							<h5 class="address">上海市长宁区金钟路199号长宁一号楼303号</h5>
+							<h5 class="clock">8:00-22:00</h5>
+						</dd>
+					</dl>
+					<label class="callTel" data-tel="tel:18818888888">电话咨询</label>
+					<span class="gothere">去这里</span>
+				</div>
+				<div class="storeList">
+					<dl class="displayBox">
+						<dt>
+							<img src="img/mall1.jpg" />
+						</dt>
+						<dd class="boxflex">
+							<h4>上海华窈整形福州路上海华窈整形福州路上海华窈整形福州路</h4>
+							<h5 class="address">上海市长宁区金钟路199号长宁一号楼303号</h5>
+							<h5 class="clock">8:00-22:00</h5>
+						</dd>
+					</dl>
+					<label class="callTel" data-tel="tel:18818888888">电话咨询</label>
+					<span class="gothere">去这里</span>
+				</div>
+				<div class="storeList">
+					<dl class="displayBox">
+						<dt>
+							<img src="img/mall1.jpg" />
+						</dt>
+						<dd class="boxflex">
+							<h4>上海华窈整形福州路上海华窈整形福州路上海华窈整形福州路</h4>
+							<h5 class="address">上海市长宁区金钟路199号长宁一号楼303号</h5>
+							<h5 class="clock">8:00-22:00</h5>
+						</dd>
+					</dl>
+					<label class="callTel" data-tel="tel:18818888888">电话咨询</label>
+					<span class="gothere">去这里</span>
+				</div>
+				
+				<!-- 上拉加载提示    开始-->
+				<div class="loadmore"><span class="loading"></span><span class="loadTip">上拉显示更多</span></div>
+				 <!-- 上拉加载提示     结束-->
+				
+				
+				
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+<!--  公共弹层背景    -->
+<div class="rightpopBg hide"></div>
+
+<script type="text/javascript" src="js/public.js" ></script>
+<script type="text/javascript" src="js/orderDetail.js" ></script>
+	
+</body>
+</html>
